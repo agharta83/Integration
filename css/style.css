@@ -135,3 +135,64 @@ body article .footer-article a img {
   background-repeat: repeat-x;
   padding: 2rem;
 }
+main .previous-next {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+main .previous-next a {
+  text-transform: uppercase;
+  font-family: 'WeDrive';
+  text-decoration: none;
+  background-color: #5A4A4A;
+  color: white;
+  font-weight: 600;
+  margin: 0.5rem;
+  border-radius: 5%;
+}
+
+main .previous {
+  padding: 0.4rem 0.6rem;
+}
+
+main .next {
+  padding: 0.4rem 1.2rem;
+}
+
+/**** FOOTER ****/
+footer {
+  font-family: 'WeDrive';
+  border-top: 1px solid #5A4A4A;
+}
+
+body > footer > div > div {
+  padding-top: 0.5rem;
+}
+
+body > footer > div > div:nth-child(1) {
+  font-weight: 600;
+}
+
+body > footer > div > div:nth-child(1) > p:nth-child(1) {
+  margin-bottom: -0.5rem;
+}
+
+body > footer > div > div:nth-child(1) > p:nth-child(2) {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  margin-left: 10rem;
+}
+
+body > footer > div > div:nth-child(2) {
+  text-align: right;
+}
+body > footer > div > div:nth-child(2) > a {
+  text-decoration: none;
+  color: #5A4A4A;
+  padding-right: 2rem;
+}
+
+body > footer > div > div:nth-child(2) > a:nth-child(4) {
+  padding-right: 0;
+}
