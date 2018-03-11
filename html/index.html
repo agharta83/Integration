@@ -15,7 +15,7 @@
   <body>
     <header class="container-fluid">
         <a href="#"><img class="pull-left" src="../images/logo.png" alt="logo"></a>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,78 +32,94 @@
     </header>
     <main class="container">
         <article class="row">
-            <div class="col-5 photos">
+            <div class="d-none d-sm-none d-lg-block col-lg-5 col-xl-5 photos">
                 <img src="../images/src/photo1.jpg" alt="city">
             </div>
-            <div class="col-7 posts">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 posts">
                 <p class="published_date text-right">le 21 juillet 2013</p>
-                <h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <a href="#"><h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
                 <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non alit tortor, vel molestie nulla. Sed et mi ligula. Nulla accumsan mauris ut risus iaculis adipisicing. Etiam ac velit odio, et rutrum purus. Nunc vel lorem libero, sit amet varius sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec in dui ipsum. Pellentesque sagittis elit ornare lectus molestie eu ductium risus tincidunt. Nulla tristique lorem non augue lacinia aliquet. Curabitur sagittis gravida tellus id fermentum.</p>
-                <div class="footer-article d-flex align-items-end">
-                    <a class="categories mr-auto p-2" href="#">catégorie 3</a>
-                    <a class="social p-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
-                    <a class="social p-2" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                <div class="container footer-article">
+                    <div class="row align-items-end justify-content-end">
+                        <a class="categories mr-auto" href="#">catégorie 3</a>
+                        <a class="social mr-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
+                        <a class="social mr-4" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                    </div>
                 </div>
             </div>
         </article>
 
-        <div class="pink-triangle"></div>
+        <div class="row">
+            <div class="pink-triangle col-12"></div>
+        </div>
 
         <article class="row">
-            <div class="col-5 photos">
+            <div class="d-none d-sm-none d-lg-block col-lg-5 col-xl-5 photos">
                 <img src="../images/src/photo2.jpg" alt="woman with ballons">
             </div>
-            <div class="col-7 posts">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 posts">
                 <p class="published_date text-right">le 15 juillet 2013</p>
-                <h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <a href="#"><h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
                 <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non alit tortor, vel molestie nulla. Sed et mi ligula. Nulla accumsan mauris ut risus iaculis adipisicing. Etiam ac velit odio, et rutrum purus. Nunc vel lorem libero, sit amet varius sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec in dui ipsum. Pellentesque sagittis elit ornare lectus molestie eu ductium risus tincidunt. Nulla tristique lorem non augue lacinia aliquet. Curabitur sagittis gravida tellus id fermentum.</p>
-                <div class="footer-article d-inline-flex align-items-end">
-                    <a class="categories mr-auto p-2" href="#">catégorie 1</a>
-                    <a class="categories mr-auto p-2" href="#">catégorie 3</a>
-                    <a class="social-media p-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
-                    <a class="social-media p-2" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                <div class="container footer-article">
+                    <div class="row align-items-end justify-content-end">
+                        <a class="categories mr-2" href="#">catégorie 1</a>
+                        <a class="categories mr-auto" href="#">catégorie 2</a>
+                        <a class="social ml-auto mr-2 " href="#"><img src="../images/facebook.png" alt="link facebook"></a>
+                        <a class="social mr-4" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                    </div>
                 </div>
             </div>
         </article>
 
-        <div class="blue-triangle"></div>
+        <div class="row">
+            <div class="blue-triangle col-12"></div>
+        </div>
 
         <article class="row">
-            <div class="col-5 photos">
+            <div class="d-none d-sm-none d-lg-block col-lg-5 col-xl-5 photos">
                 <img src="../images/src/photo3.jpg" alt="other city">
             </div>
-            <div class="col-7 posts">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 posts">
                 <p class="published_date text-right">le 12 juillet 2013</p>
-                <h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-                <p class="text-left">In eu metus nec diam facilisis ultrices id id turpis. Fusce imperdiet magna quis turpis gravida non tincidunt lorem semper. Sed faucibus suscipit varius. Quisque cursus tortor in leo aliquet sed tincidunt erat molestie. Sed varius tristique lorem, sit amet pulvinar odio faucibus ut. Mauris eget ligula et diam lacinia interdum eu nec lectus. Nam eget augue in enim blandit tempus quis id elit.</p>
-                <div class="footer-article d-inline-flex align-items-end">
-                    <a class="categories mr-auto p-2" href="#">catégorie 1</a>
-                    <a class="social-media p-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
-                    <a class="social-media p-2" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                <a href="#"><h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
+                <p class="text-left pb-5">In eu metus nec diam facilisis ultrices id id turpis. Fusce imperdiet magna quis turpis gravida non tincidunt lorem semper. Sed faucibus suscipit varius. Quisque cursus tortor in leo aliquet sed tincidunt erat molestie. Sed varius tristique lorem, sit amet pulvinar odio faucibus ut. Mauris eget ligula et diam lacinia interdum eu nec lectus. Nam eget augue in enim blandit tempus quis id elit.</p>
+                <div class="container footer-article ">
+                    <div class="row align-items-end justify-content-end">
+                        <a class="categories mr-auto" href="#">catégorie 1</a>
+                        <a class="social mr-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
+                        <a class="social mr-4" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                    </div>
                 </div>
             </div>
         </article>
 
-        <div class="pink-triangle"></div>
+        <div class="row">
+            <div class="pink-triangle col-12"></div>
+        </div>
 
         <article class="row">
-            <div class="col-5 photos">
+            <div class="d-none d-sm-none d-lg-block col-lg-5 col-xl-5 photos">
                 <img src="../images/src/photo4.jpg" alt="mountains">
             </div>
-            <div class="col-7 posts">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 posts">
                 <p class="published_date text-right">le 15 juillet 2013</p>
-                <h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <a href="#"><h2 class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
                 <p class="text-left">Nam interdum tincidunt magna eget fringilla. Praesent non nisi eget justo mollis porta. Donec ante eros, tincidunt quis dictum in, venenatis suscipit risus. Aliquam egestas sem non arcu imperdiet et gravida eros tincidunt. In vulputate est ac magna facilisis rutrum. Quisque venenatis vestibulum orci malesuada viverra. Aliquam faucibus ullamcorper eleifend. Nullam ornare molestie laoreet. Praesent eleifend sagittis lorem, sit amet pulvinar lectus malesuada quis. Phasellus velit odio a felis viverra sit amet euismod leo facilisis.</p>
-                <div class="footer-article d-inline-flex align-items-end">
-                    <a class="categories mr-auto p-2" href="#">catégorie 1</a>
-                    <a class="categories mr-auto p-2" href="#">catégorie 2</a>
-                    <a class="social-media p-2" href="#"><img src="../images/facebook.png" alt="link facebook"></a>
-                    <a class="social-media p-2" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                <div class="container footer-article">
+                    <div class="row align-items-end justify-content-end">
+                        <a class="categories mr-2" href="#">catégorie 1</a>
+                        <a class="categories mr-auto" href="#">catégorie 2</a>
+                        <a class="social ml-auto mr-2 " href="#"><img src="../images/facebook.png" alt="link facebook"></a>
+                        <a class="social mr-4" href="#"><img src="../images/twitter.png" alt="link twitter"></a>
+                    </div>
                 </div>
             </div>
         </article>
 
-        <div class="blue-triangle"></div>
+        <div class="row">
+            <div class="blue-triangle col-12"></div>
+        </div>
 
         <div class="previous-next">
             <a class="previous" href="#">precedent</a>
